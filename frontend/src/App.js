@@ -7,43 +7,43 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div className="App">
-        <header style={{ 
-          background: '#2c3e50',
-          color: 'white', 
-          padding: '15px 20px'
+      <div>
+        <div style={{ 
+          borderBottom: '1px solid #ccc',
+          padding: '10px 20px',
+          background: '#f5f5f5'
         }}>
           <div style={{ 
             display: 'flex', 
             justifyContent: 'space-between', 
             alignItems: 'center',
-            maxWidth: '1200px',
+            maxWidth: '1000px',
             margin: '0 auto'
           }}>
-            <h1 style={{ margin: 0, fontSize: '1.5rem' }}>
+            <h2 style={{ margin: 0, fontSize: '20px' }}>
               Personal Care Product Safety Scanner
-            </h1>
-            <nav>
-              <Link to="/" style={{ color: 'white', marginRight: '20px', textDecoration: 'none' }}>
+            </h2>
+            <div>
+              <Link to="/" style={{ marginRight: '15px', color: '#000', textDecoration: 'none' }}>
                 Scanner
               </Link>
-              <Link to="/sentiment" style={{ color: 'white', textDecoration: 'none' }}>
-                Sentiment Dashboard
+              <Link to="/sentiment" style={{ color: '#000', textDecoration: 'none' }}>
+                Sentiment
               </Link>
-            </nav>
+            </div>
           </div>
-        </header>
+        </div>
         
-        <main style={{ 
+        <div style={{ 
           padding: '20px',
-          maxWidth: '1200px',
+          maxWidth: '1000px',
           margin: '0 auto'
         }}>
           <Routes>
             <Route path="/" element={<ScannerPage />} />
             <Route path="/sentiment" element={<SentimentDashboard />} />
           </Routes>
-        </main>
+        </div>
       </div>
     </Router>
   );
