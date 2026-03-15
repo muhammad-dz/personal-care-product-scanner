@@ -1,24 +1,22 @@
 """
-Influenster Product Review Scraper
-Specifically designed for beauty and personal care product reviews
+Enhanced Influenster Product Review Scraper
+With anti-detection measures and session handling
 """
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import time
 import random
-import json
 from datetime import datetime
 import re
+from fake_useragent import UserAgent
 
-class InfluensterScraper:
+class EnhancedInfluensterScraper:
     def __init__(self):
-        self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Accept-Language': 'en-US, en;q=0.9',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-            'Connection': 'keep-alive',
-        }
+        # Use fake-useragent to generate random realistic user agents
+        self.ua = UserAgent()
+        self.session = None
+        self._create_session()
         
         # Popular beauty products with known Influenster URLs
         self.beauty_products = [
@@ -31,7 +29,7 @@ class InfluensterScraper:
                 'url': 'https://www.influenster.com/reviews/the-ordinary-niacinamide-10-zinc-1'
             },
             {
-                'name': 'La Roche-Posay Toleriane Double Repair Face Moisturizer',
+                'name': 'La Roche-Posay Toleriane Double Repair',
                 'url': 'https://www.influenster.com/reviews/la-roche-posay-toleriane-double-repair-face-moisturizer'
             },
             {
@@ -44,14 +42,46 @@ class InfluensterScraper:
             }
         ]
     
+    def _create_session(self):
+        """Create a new session with realistic browser headers"""
+        self.session = requests.Session()
+        
+        # Generate random but realistic browser headers [citation:4]
+        headers = {
+            'User-Agent': self.ua.random,
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-User': '?1',
+            'Cache-Control': 'max-age=0',
+        }
+        
+        self.session.headers.update(headers)
+        
+        # Add cookies to appear more like a real browser
+        self.session.cookies.set('visid_incap', '', domain='.influenster.com')
+        self.session.cookies.set('nlbi_', '', domain='.influenster.com')
+    
+    def _random_delay(self, min_seconds=2, max_seconds=5):
+        """Add random delay between requests to avoid detection [citation:4]"""
+        delay = random.uniform(min_seconds, max_seconds)
+        print(f"  ⏱️ Waiting {delay:.1f} seconds...")
+        time.sleep(delay)
+    
     def scrape_product_reviews(self, product_url, max_pages=3):
         """
-        Scrape reviews for a specific product from Influenster
+        Scrape reviews for a specific product with anti-detection measures
         """
         all_reviews = []
         product_name = self._extract_product_name(product_url)
         
-        print(f"🔍 Scraping reviews for: {product_name}")
+        print(f"\n🔍 Scraping reviews for: {product_name}")
+        print(f"📡 Using User-Agent: {self.session.headers['User-Agent'][:50]}...")
         
         for page in range(1, max_pages + 1):
             try:
@@ -61,26 +91,60 @@ class InfluensterScraper:
                 else:
                     paginated_url = f"{product_url}?page={page}"
                 
-                print(f"  Fetching page {page}...")
-                response = requests.get(paginated_url, headers=self.headers, timeout=15)
+                print(f"\n  📄 Fetching page {page}...")
+                
+                # Rotate User-Agent for each page to avoid fingerprinting [citation:4]
+                self.session.headers.update({'User-Agent': self.ua.random})
+                
+                # Add a small random delay before request
+                time.sleep(random.uniform(1, 2))
+                
+                # Make the request with timeout
+                response = self.session.get(
+                    paginated_url, 
+                    timeout=15,
+                    allow_redirects=True
+                )
+                
+                print(f"  📊 Status code: {response.status_code}")
                 
                 if response.status_code != 200:
-                    print(f"  Failed to load page {page}: {response.status_code}")
+                    print(f"  ❌ Failed to load page {page}: {response.status_code}")
+                    if response.status_code == 403:
+                        print("  🔒 Blocked! This site has strong anti-bot protection.")
+                        print("  💡 Try using a proxy service or consider alternative data sources.")
+                    break
+                
+                # Check if we got a challenge page
+                if "just a moment" in response.text.lower() or "captcha" in response.text.lower():
+                    print("  ⚠️ Detected challenge page (Cloudflare/DDOS protection)")
                     break
                 
                 soup = BeautifulSoup(response.content, 'html.parser')
                 
-                # Find all review cards - adjust selectors based on actual HTML
-                review_cards = soup.find_all('div', class_=re.compile(r'review-card|review-item|review__card'))
+                # Try multiple selectors for review cards
+                selectors = [
+                    'div[class*="review-card"]',
+                    'div[class*="review-item"]',
+                    'div[data-testid="review-card"]',
+                    'article[class*="review"]',
+                    'div[class*="ReviewCard"]',
+                    'div[class*="review__card"]'
+                ]
                 
-                # Fallback selectors if the above doesn't work
-                if not review_cards:
-                    review_cards = soup.find_all('div', {'data-testid': 'review-card'})
-                if not review_cards:
-                    review_cards = soup.find_all('article', class_=re.compile(r'review'))
+                review_cards = []
+                for selector in selectors:
+                    review_cards = soup.select(selector)
+                    if review_cards:
+                        print(f"  ✅ Found {len(review_cards)} reviews using selector: {selector}")
+                        break
                 
                 if not review_cards:
-                    print(f"  No reviews found on page {page}")
+                    print(f"  ⚠️ No reviews found on page {page}")
+                    # Save HTML for debugging
+                    with open(f"debug_page_{page}.html", "w", encoding="utf-8") as f:
+                        f.write(response.text)
+                    print(f"  💾 Saved page HTML to debug_page_{page}.html for inspection")
                     break
                 
                 for card in review_cards:
@@ -89,91 +153,116 @@ class InfluensterScraper:
                         if review:
                             all_reviews.append(review)
                     except Exception as e:
-                        print(f"    Error parsing review: {e}")
+                        print(f"    ⚠️ Error parsing review: {e}")
                         continue
                 
-                print(f"  Page {page}: Found {len(review_cards)} reviews, saved {len([r for r in all_reviews if r.get('product_name') == product_name])} total")
+                print(f"  ✅ Page {page}: Found {len(review_cards)} reviews")
                 
-                # Random delay to avoid blocking
-                time.sleep(random.uniform(2, 4))
+                # Random delay between pages [citation:7]
+                self._random_delay(3, 6)
                 
+            except requests.exceptions.RequestException as e:
+                print(f"  ❌ Network error on page {page}: {e}")
+                break
             except Exception as e:
-                print(f"  Error on page {page}: {e}")
+                print(f"  ❌ Unexpected error on page {page}: {e}")
                 break
         
-        print(f"  Total for {product_name}: {len([r for r in all_reviews if r.get('product_name') == product_name])} reviews")
+        print(f"\n📊 Total for {product_name}: {len(all_reviews)} reviews")
         return all_reviews
     
     def _parse_review_card(self, card, product_name):
-        """
-        Extract review details from a review card element
-        """
-        # Rating (usually 1-5 stars)
-        rating = 0
-        rating_elem = card.find('span', class_=re.compile(r'rating|stars', re.I))
-        if rating_elem:
-            rating_text = rating_elem.get_text().strip()
-            rating_match = re.search(r'(\d+(\.\d+)?)', rating_text)
-            if rating_match:
-                rating = float(rating_match.group(1))
-        else:
-            # Try to find by aria-label
-            rating_elem = card.find('div', {'aria-label': re.compile(r'rating', re.I)})
-            if rating_elem:
-                rating_match = re.search(r'(\d+(\.\d+)?)', rating_elem.get('aria-label', ''))
-                if rating_match:
-                    rating = float(rating_match.group(1))
+        """Extract review details from a review card element"""
         
-        # Review title
-        title = ""
-        title_elem = card.find('h3', class_=re.compile(r'title|heading', re.I))
-        if title_elem:
-            title = title_elem.get_text().strip()
-        
-        # Review text
+        # Extract review text
         text = ""
-        text_elem = card.find('p', class_=re.compile(r'review-text|description|content', re.I))
-        if text_elem:
-            text = text_elem.get_text().strip()
+        text_selectors = [
+            'p[class*="review-text"]',
+            'p[class*="description"]',
+            'div[class*="content"]',
+            'span[class*="review"]',
+            'div[data-testid*="review"]'
+        ]
         
-        # Skip if no review text
+        for selector in text_selectors:
+            elem = card.select_one(selector)
+            if elem:
+                text = elem.get_text().strip()
+                break
+        
         if not text or len(text) < 20:
             return None
         
-        # Review date
-        date = ""
-        date_elem = card.find('time')
-        if date_elem:
-            date = date_elem.get('datetime', date_elem.get_text().strip())
-        else:
-            date_elem = card.find('span', class_=re.compile(r'date', re.I))
-            if date_elem:
-                date = date_elem.get_text().strip()
+        # Extract rating
+        rating = 0
+        rating_selectors = [
+            'span[class*="rating"]',
+            'div[class*="stars"]',
+            'div[aria-label*="rating"]',
+            'meta[itemprop="ratingValue"]'
+        ]
         
-        # Reviewer name
+        for selector in rating_selectors:
+            elem = card.select_one(selector)
+            if elem:
+                if elem.name == 'meta':
+                    rating = float(elem.get('content', 0))
+                else:
+                    rating_text = elem.get_text().strip()
+                    rating_match = re.search(r'(\d+(\.\d+)?)', rating_text)
+                    if rating_match:
+                        rating = float(rating_match.group(1))
+                break
+        
+        # Extract reviewer name
         reviewer = ""
-        name_elem = card.find('span', class_=re.compile(r'username|author|name', re.I))
-        if name_elem:
-            reviewer = name_elem.get_text().strip()
+        name_selectors = [
+            'span[class*="author"]',
+            'span[class*="username"]',
+            'div[class*="user"]',
+            'meta[itemprop="author"]'
+        ]
         
-        # Verified purchase? (Influenster reviews are from community members)
-        verified = "Influenster"
+        for selector in name_selectors:
+            elem = card.select_one(selector)
+            if elem:
+                if elem.name == 'meta':
+                    reviewer = elem.get('content', '')
+                else:
+                    reviewer = elem.get_text().strip()
+                break
+        
+        # Extract date
+        date = ""
+        date_selectors = [
+            'time',
+            'span[class*="date"]',
+            'meta[itemprop="datePublished"]'
+        ]
+        
+        for selector in date_selectors:
+            elem = card.select_one(selector)
+            if elem:
+                if elem.name == 'time':
+                    date = elem.get('datetime', elem.get_text().strip())
+                elif elem.name == 'meta':
+                    date = elem.get('content', '')
+                else:
+                    date = elem.get_text().strip()
+                break
         
         return {
             'product_name': product_name,
             'rating': rating,
-            'title': title,
             'text': text,
             'date': date,
             'reviewer': reviewer,
-            'verified': verified,
             'source': 'Influenster',
             'scraped_date': datetime.now().isoformat()
         }
     
     def _extract_product_name(self, url):
         """Extract product name from URL"""
-        # Try to extract from URL pattern
         match = re.search(r'/reviews/(.+?)(?:\?|$)', url)
         if match:
             name_parts = match.group(1).split('-')
@@ -188,6 +277,7 @@ class InfluensterScraper:
             product_list = self.beauty_products
         
         all_reviews = []
+        success_count = 0
         
         for product in product_list:
             try:
@@ -199,8 +289,11 @@ class InfluensterScraper:
                 reviews = self.scrape_product_reviews(url, max_pages)
                 all_reviews.extend(reviews)
                 
-                # Longer delay between products
-                time.sleep(random.uniform(3, 5))
+                if reviews:
+                    success_count += 1
+                
+                # Longer delay between products [citation:7]
+                self._random_delay(5, 8)
                 
             except Exception as e:
                 print(f"❌ Failed to scrape {product}: {e}")
@@ -213,35 +306,33 @@ class InfluensterScraper:
             df.to_csv(filename, index=False)
             print(f"\n✅ Saved {len(all_reviews)} reviews to {filename}")
             
-            # Also save a sample for quick viewing
+            # Save a sample for quick viewing
             sample_file = f"data/reviews/influenster_reviews_sample.csv"
             df.head(20).to_csv(sample_file, index=False)
-            print(f"   Sample (20 reviews) saved to {sample_file}")
+            print(f"✅ Sample (20 reviews) saved to {sample_file}")
         else:
             print("\n❌ No reviews were collected!")
         
         return all_reviews
-    
-    def search_products_by_category(self, category, max_results=10):
-        """
-        Search for products by category (e.g., 'moisturizer', 'cleanser')
-        Note: This is a helper to find product URLs, not a full implementation
-        """
-        print(f"🔍 Searching for {category} products...")
-        print("   To find product URLs manually:")
-        print(f"   1. Go to https://www.influenster.com/search?q={category}")
-        print(f"   2. Click on individual products")
-        print(f"   3. Copy the URL from the reviews page")
-        return []
 
 
 def main():
     """Main function to run the scraper"""
-    print("=" * 60)
-    print("INFLUENSTER BEAUTY PRODUCT REVIEW SCRAPER")
-    print("=" * 60)
+    print("=" * 70)
+    print("🔍 ENHANCED INFLUENSTER BEAUTY PRODUCT REVIEW SCRAPER")
+    print("=" * 70)
     
-    scraper = InfluensterScraper()
+    # Install required packages if missing
+    try:
+        from fake_useragent import UserAgent
+    except ImportError:
+        print("\n📦 Installing required package: fake-useragent")
+        import subprocess
+        subprocess.check_call(['pip', 'install', 'fake-useragent'])
+        print("✅ Installation complete. Please run the script again.")
+        return
+    
+    scraper = EnhancedInfluensterScraper()
     
     print("\n📋 Available products:")
     for i, product in enumerate(scraper.beauty_products, 1):
@@ -256,6 +347,7 @@ def main():
     
     if choice == '1':
         print("\n🚀 Scraping all pre-defined products...")
+        print("⚠️  This may take several minutes due to anti-detection delays.")
         scraper.scrape_multiple_products(max_pages=3)
         
     elif choice == '2':
