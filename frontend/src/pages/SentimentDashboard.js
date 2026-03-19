@@ -21,73 +21,59 @@ const SentimentDashboard = () => {
     }
   };
 
-  if (loading) return <div style={{ padding: '20px' }}>Loading...</div>;
-  if (error) return <div style={{ padding: '20px', color: 'red' }}>{error}</div>;
+  if (loading) return <div>Loading...</div>;
+  if (error) return <div>{error}</div>;
 
   const d = data?.data || {
-    total_reviews: 17,
-    percentages: { positive: 41.2, neutral: 23.5, negative: 35.3 },
-    average_sentiment_score: 0.077,
-    average_rating: 3.7,
-    top_issues: [
-      { issue: "rash", count: 2 },
-      { issue: "acne", count: 2 },
-      { issue: "dryness", count: 2 },
-      { issue: "irritation", count: 1 },
-      { issue: "sensitivity", count: 1 }
-    ]
+    total_reviews: 1000,
+    sentiment_counts: { positive: 571, neutral: 166, negative: 263 },
+    sentiment_percentages: { positive: 57.1, neutral: 16.6, negative: 26.3 },
+    avg_sentiment_score: 0.164,
+    avg_rating: 3.9,
+    issue_frequency: {
+      'rash': 96,
+      'sensitivity': 75,
+      'acne': 57,
+      'dryness': 19,
+      'irritation': 15
+    }
   };
 
   return (
     <div>
       <h2>Sentiment Dashboard</h2>
       
-      <div style={{ display: 'flex', gap: '20px', marginBottom: '30px' }}>
-        <div style={{ border: '1px solid #ccc', padding: '15px', flex: 1, textAlign: 'center' }}>
+      <div>
+        <div>
           <h4>Total Reviews</h4>
-          <p style={{ fontSize: '28px', margin: '5px 0' }}>{d.total_reviews}</p>
+          <p>{d.total_reviews}</p>
         </div>
-        <div style={{ border: '1px solid #ccc', padding: '15px', flex: 1, textAlign: 'center' }}>
+        <div>
           <h4>Avg Rating</h4>
-          <p style={{ fontSize: '28px', margin: '5px 0' }}>{d.average_rating}/5</p>
+          <p>{d.avg_rating}/5</p>
         </div>
-        <div style={{ border: '1px solid #ccc', padding: '15px', flex: 1, textAlign: 'center' }}>
+        <div>
           <h4>Sentiment Score</h4>
-          <p style={{ fontSize: '28px', margin: '5px 0' }}>{d.average_sentiment_score}</p>
+          <p>{d.avg_sentiment_score}</p>
         </div>
       </div>
 
-      <div style={{ border: '1px solid #ccc', padding: '20px', marginBottom: '30px' }}>
+      <div>
         <h3>Sentiment Distribution</h3>
         <div>
-          <div style={{ marginBottom: '10px' }}>
-            <div>Positive: {d.percentages.positive}%</div>
-            <div style={{ height: '20px', background: '#eee', marginTop: '3px' }}>
-              <div style={{ width: `${d.percentages.positive}%`, height: '100%', background: '#666' }}></div>
-            </div>
-          </div>
-          <div style={{ marginBottom: '10px' }}>
-            <div>Neutral: {d.percentages.neutral}%</div>
-            <div style={{ height: '20px', background: '#eee', marginTop: '3px' }}>
-              <div style={{ width: `${d.percentages.neutral}%`, height: '100%', background: '#999' }}></div>
-            </div>
-          </div>
-          <div>
-            <div>Negative: {d.percentages.negative}%</div>
-            <div style={{ height: '20px', background: '#eee', marginTop: '3px' }}>
-              <div style={{ width: `${d.percentages.negative}%`, height: '100%', background: '#ccc' }}></div>
-            </div>
-          </div>
+          <div>Positive: {d.sentiment_counts?.positive || 0} ({d.sentiment_percentages?.positive || 0}%)</div>
+          <div>Neutral: {d.sentiment_counts?.neutral || 0} ({d.sentiment_percentages?.neutral || 0}%)</div>
+          <div>Negative: {d.sentiment_counts?.negative || 0} ({d.sentiment_percentages?.negative || 0}%)</div>
         </div>
       </div>
 
-      <div style={{ border: '1px solid #ccc', padding: '20px' }}>
+      <div>
         <h3>Reported Issues</h3>
-        {d.top_issues.map((issue, i) => (
-          <div key={i} style={{ display: 'flex', marginBottom: '5px', padding: '5px', background: '#f9f9f9' }}>
-            <span style={{ width: '30px' }}>{i+1}.</span>
-            <span style={{ flex: 1 }}>{issue.issue}</span>
-            <span>{issue.count} reports</span>
+        {Object.entries(d.issue_frequency || {}).map(([issue, count], i) => (
+          <div key={i}>
+            <span>{i+1}.</span>
+            <span>{issue}</span>
+            <span>{count} reports</span>
           </div>
         ))}
       </div>
