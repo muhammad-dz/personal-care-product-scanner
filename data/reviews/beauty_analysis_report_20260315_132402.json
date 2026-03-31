@@ -1,0 +1,17 @@
+{
+  "total_reviews": 100,
+  "sentiment_counts": {
+    "positive": 85,
+    "negative": 15
+  },
+  "avg_sentiment_score": 0.57,
+  "avg_rating": 4.1,
+  "issue_frequency": {
+    "rash": 6,
+    "acne": 3,
+    "dryness": 1
+  },
+  "dataset_source": "data\\reviews\\synthetic_beauty_reviews_20260315_132354.csv",
+  "analyzed_date": "2026-03-15T13:24:02.331473",
+  "total_analyzed": 100
+}

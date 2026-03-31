@@ -1,0 +1,15 @@
+{
+  "total_reviews": 1000,
+  "unique_products": 10,
+  "rating_distribution": {
+    "1": 59,
+    "2": 91,
+    "3": 172,
+    "4": 267,
+    "5": 411
+  },
+  "avg_rating": 3.88,
+  "reviews_with_issues": 150,
+  "generated": "2026-03-15T13:33:35.169034",
+  "filename": "data\\reviews\\beauty_reviews_20260315_133335.csv"
+}

@@ -1,0 +1,24 @@
+{
+  "total_reviews": 1000,
+  "sentiment_counts": {
+    "positive": 571,
+    "negative": 263,
+    "neutral": 166
+  },
+  "avg_sentiment_score": 0.164,
+  "avg_rating": 3.9,
+  "issue_frequency": {
+    "rash": 96,
+    "sensitivity": 75,
+    "acne": 57,
+    "dryness": 19
+  },
+  "sentiment_percentages": {
+    "positive": 57.1,
+    "neutral": 16.6,
+    "negative": 26.3
+  },
+  "dataset_source": "data\\reviews\\beauty_reviews_20260315_133335.csv",
+  "analyzed_date": "2026-03-15T13:33:45.767808",
+  "total_analyzed": 1000
+}

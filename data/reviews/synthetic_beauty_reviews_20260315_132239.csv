@@ -1,0 +1,1001 @@
+product_name,rating,text,sentiment,issues,date,source
+CeraVe Hydrating Cleanser,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,2,Really disappointed. Caused irritation.,negative,"sensitivity,irritation",2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,⭐⭐⭐⭐⭐ Best CeraVe Hydrating Cleanser I've ever used.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,1,Made my skin so dry and flaky. Not good.,negative,dryness,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+The Ordinary Niacinamide,2,Gave me a rash! Had to stop using this The Ordinary Niacinamide.,negative,"dryness,rash",2026-03-15,synthetic
+Olay Regenerist Retinol,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Olay Regenerist Retinol,4,⭐⭐⭐⭐⭐ Best Olay Regenerist Retinol I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,⭐⭐⭐⭐⭐ Best Cetaphil Gentle Cleanser I've ever used.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,⭐⭐⭐⭐⭐ Best CeraVe Hydrating Cleanser I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,⭐⭐⭐⭐⭐ Best Cetaphil Gentle Cleanser I've ever used.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,⭐⭐⭐⭐⭐ Best CeraVe Hydrating Cleanser I've ever used.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,1,Really disappointed. Caused irritation.,negative,irritation,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,⭐⭐⭐⭐⭐ Best Aveeno Daily Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,⭐⭐⭐⭐⭐ Best Cetaphil Gentle Cleanser I've ever used.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Love this Paula Choice BHA Exfoliant! Works great.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,⭐⭐⭐⭐⭐ Best Olay Regenerist Retinol I've ever used.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,2,Caused terrible breakouts. Avoid this Neutrogena Hydro Boost.,negative,"sensitivity,acne",2026-03-15,synthetic
+Clinique Dramatically Different,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,Love this Aveeno Daily Moisturizer! Works great.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,⭐⭐⭐⭐⭐ Best La Roche-Posay Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Love this Neutrogena Hydro Boost! Works great.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,1,Gave me a rash! Had to stop using this Kiehl Ultra Facial Cream.,negative,"sensitivity,rash",2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,1,Caused terrible breakouts. Avoid this Olay Regenerist Retinol.,negative,acne,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,2,Made my skin so dry and flaky. Not good.,negative,"sensitivity,dryness",2026-03-15,synthetic
+Kiehl Ultra Facial Cream,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,Love this Cetaphil Gentle Cleanser! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,⭐⭐⭐⭐⭐ Best Paula Choice BHA Exfoliant I've ever used.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,Love this Kiehl Ultra Facial Cream! Works great.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,4,⭐⭐⭐⭐⭐ Best Olay Regenerist Retinol I've ever used.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,Love this Paula Choice BHA Exfoliant! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,Love this Kiehl Ultra Facial Cream! Works great.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,⭐⭐⭐⭐⭐ Best La Roche-Posay Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,Love this Aveeno Daily Moisturizer! Works great.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,⭐⭐⭐⭐⭐ Best The Ordinary Niacinamide I've ever used.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,2,Really disappointed. Caused irritation.,negative,sensitivity,2026-03-15,synthetic
+The Ordinary Niacinamide,4,Love this The Ordinary Niacinamide! Works great.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,Love this La Roche-Posay Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Love this Neutrogena Hydro Boost! Works great.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,2,Gave me a rash! Had to stop using this Clinique Dramatically Different.,negative,"acne,rash",2026-03-15,synthetic
+Olay Regenerist Retinol,5,⭐⭐⭐⭐⭐ Best Olay Regenerist Retinol I've ever used.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,⭐⭐⭐⭐⭐ Best The Ordinary Niacinamide I've ever used.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,Love this Cetaphil Gentle Cleanser! Works great.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,2,Made my skin so dry and flaky. Not good.,negative,"irritation,dryness",2026-03-15,synthetic
+CeraVe Hydrating Cleanser,2,Really disappointed. Caused irritation.,negative,sensitivity,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,⭐⭐⭐⭐⭐ Best Paula Choice BHA Exfoliant I've ever used.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,1,Gave me a rash! Had to stop using this Neutrogena Hydro Boost.,negative,"rash,sensitivity",2026-03-15,synthetic
+Olay Regenerist Retinol,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,2,Gave me a rash! Had to stop using this CeraVe Hydrating Cleanser.,negative,"rash,irritation",2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,Love this Kiehl Ultra Facial Cream! Works great.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,1,Gave me a rash! Had to stop using this Cetaphil Gentle Cleanser.,negative,"rash,acne",2026-03-15,synthetic
+Olay Regenerist Retinol,4,Love this Olay Regenerist Retinol! Works great.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Olay Regenerist Retinol,4,Love this Olay Regenerist Retinol! Works great.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,1,Caused terrible breakouts. Avoid this The Ordinary Niacinamide.,negative,acne,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,⭐⭐⭐⭐⭐ Best CeraVe Hydrating Cleanser I've ever used.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,2,Really disappointed. Caused irritation.,negative,sensitivity,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,⭐⭐⭐⭐⭐ Best CeraVe Hydrating Cleanser I've ever used.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,⭐⭐⭐⭐⭐ Best La Roche-Posay Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,2,Gave me a rash! Had to stop using this Kiehl Ultra Facial Cream.,negative,"dryness,rash",2026-03-15,synthetic
+Olay Regenerist Retinol,1,Caused terrible breakouts. Avoid this Olay Regenerist Retinol.,negative,"dryness,acne",2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,1,Caused terrible breakouts. Avoid this Cetaphil Gentle Cleanser.,negative,"acne,dryness",2026-03-15,synthetic
+La Roche-Posay Moisturizer,1,Made my skin so dry and flaky. Not good.,negative,dryness,2026-03-15,synthetic
+Olay Regenerist Retinol,5,⭐⭐⭐⭐⭐ Best Olay Regenerist Retinol I've ever used.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,⭐⭐⭐⭐⭐ Best Paula Choice BHA Exfoliant I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,⭐⭐⭐⭐⭐ Best Aveeno Daily Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,2,Made my skin so dry and flaky. Not good.,negative,"irritation,dryness",2026-03-15,synthetic
+Olay Regenerist Retinol,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,⭐⭐⭐⭐⭐ Best La Roche-Posay Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+The Ordinary Niacinamide,2,Really disappointed. Caused irritation.,negative,"irritation,sensitivity",2026-03-15,synthetic
+The Ordinary Niacinamide,5,Love this The Ordinary Niacinamide! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,Love this La Roche-Posay Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Love this Paula Choice BHA Exfoliant! Works great.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,Love this Aveeno Daily Moisturizer! Works great.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,1,Caused terrible breakouts. Avoid this Cetaphil Gentle Cleanser.,negative,acne,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,⭐⭐⭐⭐⭐ Best Olay Regenerist Retinol I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,⭐⭐⭐⭐⭐ Best Cetaphil Gentle Cleanser I've ever used.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,2,Caused terrible breakouts. Avoid this Neutrogena Hydro Boost.,negative,"acne,sensitivity",2026-03-15,synthetic
+The Ordinary Niacinamide,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,Love this Cetaphil Gentle Cleanser! Works great.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,Love this Olay Regenerist Retinol! Works great.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,1,Really disappointed. Caused irritation.,negative,irritation,2026-03-15,synthetic
+Olay Regenerist Retinol,1,Really disappointed. Caused irritation.,negative,"irritation,sensitivity",2026-03-15,synthetic
+The Ordinary Niacinamide,5,⭐⭐⭐⭐⭐ Best The Ordinary Niacinamide I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,2,Caused terrible breakouts. Avoid this The Ordinary Niacinamide.,negative,acne,2026-03-15,synthetic
+Olay Regenerist Retinol,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,4,Love this Olay Regenerist Retinol! Works great.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,⭐⭐⭐⭐⭐ Best La Roche-Posay Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,2,Caused terrible breakouts. Avoid this Neutrogena Hydro Boost.,negative,acne,2026-03-15,synthetic
+Olay Regenerist Retinol,2,Made my skin so dry and flaky. Not good.,negative,dryness,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,Love this Aveeno Daily Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,2,Caused terrible breakouts. Avoid this Paula Choice BHA Exfoliant.,negative,"sensitivity,acne",2026-03-15,synthetic
+Clinique Dramatically Different,5,⭐⭐⭐⭐⭐ Best Clinique Dramatically Different I've ever used.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,1,Caused terrible breakouts. Avoid this Cetaphil Gentle Cleanser.,negative,"dryness,acne",2026-03-15,synthetic
+Aveeno Daily Moisturizer,2,Caused terrible breakouts. Avoid this Aveeno Daily Moisturizer.,negative,"irritation,acne",2026-03-15,synthetic
+Olay Regenerist Retinol,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,⭐⭐⭐⭐⭐ Best Aveeno Daily Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Olay Regenerist Retinol,4,⭐⭐⭐⭐⭐ Best Olay Regenerist Retinol I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,Love this Aveeno Daily Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,1,Made my skin so dry and flaky. Not good.,negative,"irritation,dryness",2026-03-15,synthetic
+Neutrogena Hydro Boost,2,Gave me a rash! Had to stop using this Neutrogena Hydro Boost.,negative,"dryness,rash",2026-03-15,synthetic
+Olay Regenerist Retinol,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,⭐⭐⭐⭐⭐ Best Clinique Dramatically Different I've ever used.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,Love this La Roche-Posay Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,⭐⭐⭐⭐⭐ Best Clinique Dramatically Different I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,Love this Kiehl Ultra Facial Cream! Works great.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,⭐⭐⭐⭐⭐ Best The Ordinary Niacinamide I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,⭐⭐⭐⭐⭐ Best Clinique Dramatically Different I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,⭐⭐⭐⭐⭐ Best Cetaphil Gentle Cleanser I've ever used.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,2,Really disappointed. Caused irritation.,negative,"irritation,sensitivity",2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,⭐⭐⭐⭐⭐ Best Clinique Dramatically Different I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,⭐⭐⭐⭐⭐ Best Clinique Dramatically Different I've ever used.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,⭐⭐⭐⭐⭐ Best Paula Choice BHA Exfoliant I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,Love this Cetaphil Gentle Cleanser! Works great.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,2,Really disappointed. Caused irritation.,negative,sensitivity,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+The Ordinary Niacinamide,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,2,Made my skin so dry and flaky. Not good.,negative,dryness,2026-03-15,synthetic
+The Ordinary Niacinamide,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,2,Made my skin so dry and flaky. Not good.,negative,dryness,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Love this Neutrogena Hydro Boost! Works great.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,2,Gave me a rash! Had to stop using this Paula Choice BHA Exfoliant.,negative,rash,2026-03-15,synthetic
+Olay Regenerist Retinol,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,1,Gave me a rash! Had to stop using this Kiehl Ultra Facial Cream.,negative,"rash,dryness",2026-03-15,synthetic
+Olay Regenerist Retinol,1,Gave me a rash! Had to stop using this Olay Regenerist Retinol.,negative,"dryness,rash",2026-03-15,synthetic
+Olay Regenerist Retinol,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,⭐⭐⭐⭐⭐ Best Olay Regenerist Retinol I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,Love this Cetaphil Gentle Cleanser! Works great.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Clinique Dramatically Different,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,2,Caused terrible breakouts. Avoid this Cetaphil Gentle Cleanser.,negative,acne,2026-03-15,synthetic
+Olay Regenerist Retinol,2,Gave me a rash! Had to stop using this Olay Regenerist Retinol.,negative,"sensitivity,rash",2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,⭐⭐⭐⭐⭐ Best Aveeno Daily Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,⭐⭐⭐⭐⭐ Best Clinique Dramatically Different I've ever used.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,⭐⭐⭐⭐⭐ Best The Ordinary Niacinamide I've ever used.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,⭐⭐⭐⭐⭐ Best Olay Regenerist Retinol I've ever used.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Olay Regenerist Retinol,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,Love this Cetaphil Gentle Cleanser! Works great.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Olay Regenerist Retinol,2,Caused terrible breakouts. Avoid this Olay Regenerist Retinol.,negative,acne,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,Love this The Ordinary Niacinamide! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,2,Really disappointed. Caused irritation.,negative,sensitivity,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,Love this Kiehl Ultra Facial Cream! Works great.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,Love this Neutrogena Hydro Boost! Works great.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,⭐⭐⭐⭐⭐ Best The Ordinary Niacinamide I've ever used.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,⭐⭐⭐⭐⭐ Best La Roche-Posay Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,⭐⭐⭐⭐⭐ Best Paula Choice BHA Exfoliant I've ever used.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,Love this La Roche-Posay Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,Love this Olay Regenerist Retinol! Works great.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+The Ordinary Niacinamide,2,Made my skin so dry and flaky. Not good.,negative,dryness,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Love this Paula Choice BHA Exfoliant! Works great.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,Love this Kiehl Ultra Facial Cream! Works great.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,⭐⭐⭐⭐⭐ Best Olay Regenerist Retinol I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,⭐⭐⭐⭐⭐ Best Clinique Dramatically Different I've ever used.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,1,Gave me a rash! Had to stop using this Aveeno Daily Moisturizer.,negative,rash,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,⭐⭐⭐⭐⭐ Best CeraVe Hydrating Cleanser I've ever used.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,Love this La Roche-Posay Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,Love this Cetaphil Gentle Cleanser! Works great.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,2,Made my skin so dry and flaky. Not good.,negative,dryness,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,⭐⭐⭐⭐⭐ Best Cetaphil Gentle Cleanser I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,1,Caused terrible breakouts. Avoid this Clinique Dramatically Different.,negative,"acne,sensitivity",2026-03-15,synthetic
+Kiehl Ultra Facial Cream,2,Made my skin so dry and flaky. Not good.,negative,dryness,2026-03-15,synthetic
+The Ordinary Niacinamide,5,⭐⭐⭐⭐⭐ Best The Ordinary Niacinamide I've ever used.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,Love this Paula Choice BHA Exfoliant! Works great.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,⭐⭐⭐⭐⭐ Best Cetaphil Gentle Cleanser I've ever used.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,5,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,2,Gave me a rash! Had to stop using this Neutrogena Hydro Boost.,negative,"rash,irritation",2026-03-15,synthetic
+CeraVe Hydrating Cleanser,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,⭐⭐⭐⭐⭐ Best Paula Choice BHA Exfoliant I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,Love this Kiehl Ultra Facial Cream! Works great.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,2,Made my skin so dry and flaky. Not good.,negative,dryness,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,Love this Olay Regenerist Retinol! Works great.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,⭐⭐⭐⭐⭐ Best Olay Regenerist Retinol I've ever used.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,2,Gave me a rash! Had to stop using this Neutrogena Hydro Boost.,negative,rash,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Love this Paula Choice BHA Exfoliant! Works great.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,⭐⭐⭐⭐⭐ Best Aveeno Daily Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,4,Love this Olay Regenerist Retinol! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Love this Paula Choice BHA Exfoliant! Works great.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,2,Really disappointed. Caused irritation.,negative,irritation,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Olay Regenerist Retinol,2,Really disappointed. Caused irritation.,negative,irritation,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,Love this La Roche-Posay Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,1,Made my skin so dry and flaky. Not good.,negative,"sensitivity,dryness",2026-03-15,synthetic
+Aveeno Daily Moisturizer,2,Gave me a rash! Had to stop using this Aveeno Daily Moisturizer.,negative,"dryness,rash",2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,⭐⭐⭐⭐⭐ Best CeraVe Hydrating Cleanser I've ever used.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,2,Made my skin so dry and flaky. Not good.,negative,dryness,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,⭐⭐⭐⭐⭐ Best Paula Choice BHA Exfoliant I've ever used.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Love this Neutrogena Hydro Boost! Works great.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,1,Made my skin so dry and flaky. Not good.,negative,"irritation,dryness",2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,Love this La Roche-Posay Moisturizer! Works great.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,Love this La Roche-Posay Moisturizer! Works great.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,Love this The Ordinary Niacinamide! Works great.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,1,Gave me a rash! Had to stop using this Clinique Dramatically Different.,negative,"rash,acne",2026-03-15,synthetic
+Olay Regenerist Retinol,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,1,Made my skin so dry and flaky. Not good.,negative,"irritation,dryness",2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,⭐⭐⭐⭐⭐ Best La Roche-Posay Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,Love this La Roche-Posay Moisturizer! Works great.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,1,Really disappointed. Caused irritation.,negative,"irritation,sensitivity",2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,⭐⭐⭐⭐⭐ Best The Ordinary Niacinamide I've ever used.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,Love this The Ordinary Niacinamide! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Love this Paula Choice BHA Exfoliant! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,⭐⭐⭐⭐⭐ Best Paula Choice BHA Exfoliant I've ever used.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,⭐⭐⭐⭐⭐ Best Paula Choice BHA Exfoliant I've ever used.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,2,Caused terrible breakouts. Avoid this La Roche-Posay Moisturizer.,negative,"sensitivity,acne",2026-03-15,synthetic
+Clinique Dramatically Different,5,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,Love this La Roche-Posay Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,4,⭐⭐⭐⭐⭐ Best Clinique Dramatically Different I've ever used.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,Love this The Ordinary Niacinamide! Works great.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,⭐⭐⭐⭐⭐ Best The Ordinary Niacinamide I've ever used.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,Love this Kiehl Ultra Facial Cream! Works great.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Love this Neutrogena Hydro Boost! Works great.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,⭐⭐⭐⭐⭐ Best Paula Choice BHA Exfoliant I've ever used.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,2,Caused terrible breakouts. Avoid this CeraVe Hydrating Cleanser.,negative,"acne,irritation",2026-03-15,synthetic
+Clinique Dramatically Different,4,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,5,⭐⭐⭐⭐⭐ Best Clinique Dramatically Different I've ever used.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,⭐⭐⭐⭐⭐ Best Clinique Dramatically Different I've ever used.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,Love this Aveeno Daily Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,Love this Aveeno Daily Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,2,Caused terrible breakouts. Avoid this CeraVe Hydrating Cleanser.,negative,"acne,dryness",2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,2,Made my skin so dry and flaky. Not good.,negative,dryness,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,Love this Aveeno Daily Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,Love this Neutrogena Hydro Boost! Works great.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,⭐⭐⭐⭐⭐ Best La Roche-Posay Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,⭐⭐⭐⭐⭐ Best Paula Choice BHA Exfoliant I've ever used.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,5,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Olay Regenerist Retinol,2,Really disappointed. Caused irritation.,negative,sensitivity,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,2,Caused terrible breakouts. Avoid this Clinique Dramatically Different.,negative,acne,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,2,Caused terrible breakouts. Avoid this Clinique Dramatically Different.,negative,acne,2026-03-15,synthetic
+Olay Regenerist Retinol,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,⭐⭐⭐⭐⭐ Best Aveeno Daily Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,2,Made my skin so dry and flaky. Not good.,negative,dryness,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,⭐⭐⭐⭐⭐ Best Cetaphil Gentle Cleanser I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,2,Really disappointed. Caused irritation.,negative,sensitivity,2026-03-15,synthetic
+Aveeno Daily Moisturizer,2,Really disappointed. Caused irritation.,negative,sensitivity,2026-03-15,synthetic
+Clinique Dramatically Different,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,2,Gave me a rash! Had to stop using this Cetaphil Gentle Cleanser.,negative,"sensitivity,rash",2026-03-15,synthetic
+Neutrogena Hydro Boost,5,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,2,Gave me a rash! Had to stop using this Paula Choice BHA Exfoliant.,negative,"rash,acne",2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,2,Really disappointed. Caused irritation.,negative,"irritation,sensitivity",2026-03-15,synthetic
+Cetaphil Gentle Cleanser,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,4,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,⭐⭐⭐⭐⭐ Best Clinique Dramatically Different I've ever used.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,⭐⭐⭐⭐⭐ Best The Ordinary Niacinamide I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,1,Caused terrible breakouts. Avoid this Paula Choice BHA Exfoliant.,negative,"acne,irritation",2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,Love this La Roche-Posay Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,⭐⭐⭐⭐⭐ Best Cetaphil Gentle Cleanser I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,⭐⭐⭐⭐⭐ Best The Ordinary Niacinamide I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,2,Caused terrible breakouts. Avoid this Cetaphil Gentle Cleanser.,negative,"acne,dryness",2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,⭐⭐⭐⭐⭐ Best Aveeno Daily Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,2,Really disappointed. Caused irritation.,negative,"irritation,sensitivity",2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,Love this The Ordinary Niacinamide! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,⭐⭐⭐⭐⭐ Best Paula Choice BHA Exfoliant I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,Love this Kiehl Ultra Facial Cream! Works great.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,2,Really disappointed. Caused irritation.,negative,sensitivity,2026-03-15,synthetic
+Olay Regenerist Retinol,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,Love this Cetaphil Gentle Cleanser! Works great.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,Love this The Ordinary Niacinamide! Works great.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,Love this Paula Choice BHA Exfoliant! Works great.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,4,Love this Olay Regenerist Retinol! Works great.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,1,Really disappointed. Caused irritation.,negative,irritation,2026-03-15,synthetic
+Olay Regenerist Retinol,1,Really disappointed. Caused irritation.,negative,irritation,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,Love this Kiehl Ultra Facial Cream! Works great.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,Love this Cetaphil Gentle Cleanser! Works great.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,2,Gave me a rash! Had to stop using this Neutrogena Hydro Boost.,negative,"rash,sensitivity",2026-03-15,synthetic
+Clinique Dramatically Different,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,4,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,2,Gave me a rash! Had to stop using this Kiehl Ultra Facial Cream.,negative,rash,2026-03-15,synthetic
+Clinique Dramatically Different,4,⭐⭐⭐⭐⭐ Best Clinique Dramatically Different I've ever used.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,2,Caused terrible breakouts. Avoid this La Roche-Posay Moisturizer.,negative,acne,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,⭐⭐⭐⭐⭐ Best Paula Choice BHA Exfoliant I've ever used.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Love this Neutrogena Hydro Boost! Works great.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Olay Regenerist Retinol,4,⭐⭐⭐⭐⭐ Best Olay Regenerist Retinol I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,⭐⭐⭐⭐⭐ Best Cetaphil Gentle Cleanser I've ever used.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,2,Made my skin so dry and flaky. Not good.,negative,"sensitivity,dryness",2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,⭐⭐⭐⭐⭐ Best La Roche-Posay Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,2,Really disappointed. Caused irritation.,negative,irritation,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,⭐⭐⭐⭐⭐ Best The Ordinary Niacinamide I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,⭐⭐⭐⭐⭐ Best La Roche-Posay Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,2,Gave me a rash! Had to stop using this Cetaphil Gentle Cleanser.,negative,"rash,dryness",2026-03-15,synthetic
+Olay Regenerist Retinol,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,Love this Aveeno Daily Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,Love this Aveeno Daily Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,Love this Aveeno Daily Moisturizer! Works great.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,4,Love this Olay Regenerist Retinol! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Love this Paula Choice BHA Exfoliant! Works great.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,Love this Paula Choice BHA Exfoliant! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,1,Gave me a rash! Had to stop using this CeraVe Hydrating Cleanser.,negative,"acne,rash",2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,2,Gave me a rash! Had to stop using this CeraVe Hydrating Cleanser.,negative,"acne,rash",2026-03-15,synthetic
+Neutrogena Hydro Boost,4,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Love this Paula Choice BHA Exfoliant! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,⭐⭐⭐⭐⭐ Best CeraVe Hydrating Cleanser I've ever used.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,2,Made my skin so dry and flaky. Not good.,negative,dryness,2026-03-15,synthetic
+La Roche-Posay Moisturizer,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,Love this Kiehl Ultra Facial Cream! Works great.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,Love this The Ordinary Niacinamide! Works great.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,Love this Olay Regenerist Retinol! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,Love this Cetaphil Gentle Cleanser! Works great.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,⭐⭐⭐⭐⭐ Best La Roche-Posay Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,2,Gave me a rash! Had to stop using this The Ordinary Niacinamide.,negative,"sensitivity,rash",2026-03-15,synthetic
+Clinique Dramatically Different,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,1,Caused terrible breakouts. Avoid this The Ordinary Niacinamide.,negative,"acne,sensitivity",2026-03-15,synthetic
+Aveeno Daily Moisturizer,2,Really disappointed. Caused irritation.,negative,sensitivity,2026-03-15,synthetic
+Neutrogena Hydro Boost,2,Really disappointed. Caused irritation.,negative,sensitivity,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,2,Made my skin so dry and flaky. Not good.,negative,"irritation,dryness",2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,⭐⭐⭐⭐⭐ Best Cetaphil Gentle Cleanser I've ever used.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,⭐⭐⭐⭐⭐ Best CeraVe Hydrating Cleanser I've ever used.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+The Ordinary Niacinamide,2,Gave me a rash! Had to stop using this The Ordinary Niacinamide.,negative,"irritation,rash",2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,Love this Aveeno Daily Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,4,⭐⭐⭐⭐⭐ Best Olay Regenerist Retinol I've ever used.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,Love this Cetaphil Gentle Cleanser! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,2,Gave me a rash! Had to stop using this CeraVe Hydrating Cleanser.,negative,rash,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,2,Caused terrible breakouts. Avoid this Olay Regenerist Retinol.,negative,acne,2026-03-15,synthetic
+Olay Regenerist Retinol,1,Caused terrible breakouts. Avoid this Olay Regenerist Retinol.,negative,"acne,dryness",2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Olay Regenerist Retinol,4,Love this Olay Regenerist Retinol! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,⭐⭐⭐⭐⭐ Best Aveeno Daily Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,2,Gave me a rash! Had to stop using this Aveeno Daily Moisturizer.,negative,rash,2026-03-15,synthetic
+Clinique Dramatically Different,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,Love this La Roche-Posay Moisturizer! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,2,Really disappointed. Caused irritation.,negative,"irritation,sensitivity",2026-03-15,synthetic
+Olay Regenerist Retinol,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,Love this La Roche-Posay Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,⭐⭐⭐⭐⭐ Best Aveeno Daily Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,Love this Cetaphil Gentle Cleanser! Works great.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,Love this Aveeno Daily Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,4,⭐⭐⭐⭐⭐ Best Olay Regenerist Retinol I've ever used.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,⭐⭐⭐⭐⭐ Best La Roche-Posay Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,2,Caused terrible breakouts. Avoid this Olay Regenerist Retinol.,negative,"acne,dryness",2026-03-15,synthetic
+La Roche-Posay Moisturizer,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,⭐⭐⭐⭐⭐ Best Clinique Dramatically Different I've ever used.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,Love this La Roche-Posay Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,⭐⭐⭐⭐⭐ Best The Ordinary Niacinamide I've ever used.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,Love this Kiehl Ultra Facial Cream! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,Love this La Roche-Posay Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,2,Caused terrible breakouts. Avoid this Aveeno Daily Moisturizer.,negative,"dryness,acne",2026-03-15,synthetic
+The Ordinary Niacinamide,5,⭐⭐⭐⭐⭐ Best The Ordinary Niacinamide I've ever used.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,Love this Aveeno Daily Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,Love this Paula Choice BHA Exfoliant! Works great.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,⭐⭐⭐⭐⭐ Best Clinique Dramatically Different I've ever used.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,Love this The Ordinary Niacinamide! Works great.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,2,Made my skin so dry and flaky. Not good.,negative,"dryness,irritation",2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,Love this Kiehl Ultra Facial Cream! Works great.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,Love this Kiehl Ultra Facial Cream! Works great.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,Love this La Roche-Posay Moisturizer! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,⭐⭐⭐⭐⭐ Best Aveeno Daily Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,⭐⭐⭐⭐⭐ Best The Ordinary Niacinamide I've ever used.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,2,Gave me a rash! Had to stop using this La Roche-Posay Moisturizer.,negative,"rash,dryness",2026-03-15,synthetic
+Neutrogena Hydro Boost,1,Caused terrible breakouts. Avoid this Neutrogena Hydro Boost.,negative,acne,2026-03-15,synthetic
+Clinique Dramatically Different,4,⭐⭐⭐⭐⭐ Best Clinique Dramatically Different I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Clinique Dramatically Different,2,Gave me a rash! Had to stop using this Clinique Dramatically Different.,negative,"rash,sensitivity",2026-03-15,synthetic
+Clinique Dramatically Different,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,2,Really disappointed. Caused irritation.,negative,irritation,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Olay Regenerist Retinol,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,1,Really disappointed. Caused irritation.,negative,"irritation,sensitivity",2026-03-15,synthetic
+Paula Choice BHA Exfoliant,2,Made my skin so dry and flaky. Not good.,negative,"irritation,dryness",2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,⭐⭐⭐⭐⭐ Best Cetaphil Gentle Cleanser I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+The Ordinary Niacinamide,2,Gave me a rash! Had to stop using this The Ordinary Niacinamide.,negative,rash,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,2,Made my skin so dry and flaky. Not good.,negative,dryness,2026-03-15,synthetic
+Clinique Dramatically Different,5,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,2,Made my skin so dry and flaky. Not good.,negative,dryness,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,Love this The Ordinary Niacinamide! Works great.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Clinique Dramatically Different,2,Caused terrible breakouts. Avoid this Clinique Dramatically Different.,negative,acne,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,Love this Cetaphil Gentle Cleanser! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,⭐⭐⭐⭐⭐ Best La Roche-Posay Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Clinique Dramatically Different,2,Really disappointed. Caused irritation.,negative,"irritation,sensitivity",2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,Love this Aveeno Daily Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,2,Gave me a rash! Had to stop using this Kiehl Ultra Facial Cream.,negative,"acne,rash",2026-03-15,synthetic
+The Ordinary Niacinamide,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,⭐⭐⭐⭐⭐ Best Olay Regenerist Retinol I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,2,Made my skin so dry and flaky. Not good.,negative,"dryness,irritation",2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,1,Really disappointed. Caused irritation.,negative,irritation,2026-03-15,synthetic
+Olay Regenerist Retinol,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,⭐⭐⭐⭐⭐ Best CeraVe Hydrating Cleanser I've ever used.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,1,Caused terrible breakouts. Avoid this Kiehl Ultra Facial Cream.,negative,"acne,sensitivity",2026-03-15,synthetic
+CeraVe Hydrating Cleanser,1,Really disappointed. Caused irritation.,negative,sensitivity,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,Love this Aveeno Daily Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,1,Gave me a rash! Had to stop using this Aveeno Daily Moisturizer.,negative,"dryness,rash",2026-03-15,synthetic
+Olay Regenerist Retinol,5,Love this Olay Regenerist Retinol! Works great.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,2,Gave me a rash! Had to stop using this Olay Regenerist Retinol.,negative,"dryness,rash",2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,⭐⭐⭐⭐⭐ Best Cetaphil Gentle Cleanser I've ever used.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,1,Caused terrible breakouts. Avoid this CeraVe Hydrating Cleanser.,negative,"acne,irritation",2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,4,⭐⭐⭐⭐⭐ Best Clinique Dramatically Different I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,⭐⭐⭐⭐⭐ Best La Roche-Posay Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,⭐⭐⭐⭐⭐ Best La Roche-Posay Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,Love this The Ordinary Niacinamide! Works great.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,⭐⭐⭐⭐⭐ Best Clinique Dramatically Different I've ever used.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,5,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,Love this Kiehl Ultra Facial Cream! Works great.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,5,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,2,Really disappointed. Caused irritation.,negative,sensitivity,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,⭐⭐⭐⭐⭐ Best Paula Choice BHA Exfoliant I've ever used.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,2,Gave me a rash! Had to stop using this CeraVe Hydrating Cleanser.,negative,"rash,irritation",2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,Love this Aveeno Daily Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,⭐⭐⭐⭐⭐ Best Aveeno Daily Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,Love this Aveeno Daily Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,1,Made my skin so dry and flaky. Not good.,negative,"sensitivity,dryness",2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,1,Gave me a rash! Had to stop using this La Roche-Posay Moisturizer.,negative,"dryness,rash",2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Olay Regenerist Retinol,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,5,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,1,Made my skin so dry and flaky. Not good.,negative,"dryness,sensitivity",2026-03-15,synthetic
+CeraVe Hydrating Cleanser,2,Really disappointed. Caused irritation.,negative,"sensitivity,irritation",2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,Love this Paula Choice BHA Exfoliant! Works great.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,Love this Cetaphil Gentle Cleanser! Works great.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,Love this The Ordinary Niacinamide! Works great.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,Love this The Ordinary Niacinamide! Works great.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,⭐⭐⭐⭐⭐ Best Paula Choice BHA Exfoliant I've ever used.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,2,Really disappointed. Caused irritation.,negative,irritation,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,Love this La Roche-Posay Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,2,Caused terrible breakouts. Avoid this CeraVe Hydrating Cleanser.,negative,"irritation,acne",2026-03-15,synthetic
+Clinique Dramatically Different,5,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Clinique Dramatically Different,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,Love this Olay Regenerist Retinol! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,Love this Olay Regenerist Retinol! Works great.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,⭐⭐⭐⭐⭐ Best Aveeno Daily Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,1,Gave me a rash! Had to stop using this Aveeno Daily Moisturizer.,negative,"rash,dryness",2026-03-15,synthetic
+Cetaphil Gentle Cleanser,2,Really disappointed. Caused irritation.,negative,sensitivity,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,2,Made my skin so dry and flaky. Not good.,negative,dryness,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,⭐⭐⭐⭐⭐ Best La Roche-Posay Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,⭐⭐⭐⭐⭐ Best Paula Choice BHA Exfoliant I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,Love this Paula Choice BHA Exfoliant! Works great.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Neutrogena Hydro Boost,2,Made my skin so dry and flaky. Not good.,negative,"irritation,dryness",2026-03-15,synthetic
+The Ordinary Niacinamide,2,Really disappointed. Caused irritation.,negative,"irritation,sensitivity",2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,2,Caused terrible breakouts. Avoid this Cetaphil Gentle Cleanser.,negative,"dryness,acne",2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,⭐⭐⭐⭐⭐ Best CeraVe Hydrating Cleanser I've ever used.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,Love this The Ordinary Niacinamide! Works great.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,Love this Cetaphil Gentle Cleanser! Works great.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,⭐⭐⭐⭐⭐ Best Cetaphil Gentle Cleanser I've ever used.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,2,Made my skin so dry and flaky. Not good.,negative,"dryness,irritation",2026-03-15,synthetic
+Paula Choice BHA Exfoliant,2,Gave me a rash! Had to stop using this Paula Choice BHA Exfoliant.,negative,"rash,dryness",2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,2,Caused terrible breakouts. Avoid this Neutrogena Hydro Boost.,negative,acne,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,⭐⭐⭐⭐⭐ Best Aveeno Daily Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Love this Neutrogena Hydro Boost! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,Love this Kiehl Ultra Facial Cream! Works great.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,2,Really disappointed. Caused irritation.,negative,irritation,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,⭐⭐⭐⭐⭐ Best Aveeno Daily Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,2,Really disappointed. Caused irritation.,negative,irritation,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,⭐⭐⭐⭐⭐ Best Aveeno Daily Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,Love this Cetaphil Gentle Cleanser! Works great.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,⭐⭐⭐⭐⭐ Best CeraVe Hydrating Cleanser I've ever used.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,Love this The Ordinary Niacinamide! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,2,Caused terrible breakouts. Avoid this Paula Choice BHA Exfoliant.,negative,acne,2026-03-15,synthetic
+Clinique Dramatically Different,2,Really disappointed. Caused irritation.,negative,sensitivity,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,⭐⭐⭐⭐⭐ Best Cetaphil Gentle Cleanser I've ever used.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,1,Caused terrible breakouts. Avoid this Olay Regenerist Retinol.,negative,"acne,dryness",2026-03-15,synthetic
+Neutrogena Hydro Boost,1,Really disappointed. Caused irritation.,negative,irritation,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Love this Paula Choice BHA Exfoliant! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,2,Gave me a rash! Had to stop using this CeraVe Hydrating Cleanser.,negative,"dryness,rash",2026-03-15,synthetic
+Clinique Dramatically Different,5,⭐⭐⭐⭐⭐ Best Clinique Dramatically Different I've ever used.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,⭐⭐⭐⭐⭐ Best The Ordinary Niacinamide I've ever used.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,2,Really disappointed. Caused irritation.,negative,sensitivity,2026-03-15,synthetic
+Olay Regenerist Retinol,5,⭐⭐⭐⭐⭐ Best Olay Regenerist Retinol I've ever used.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,⭐⭐⭐⭐⭐ Best Kiehl Ultra Facial Cream I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Love this Neutrogena Hydro Boost! Works great.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,Love this Clinique Dramatically Different! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,4,⭐⭐⭐⭐⭐ Best Aveeno Daily Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Olay Regenerist Retinol,2,Gave me a rash! Had to stop using this Olay Regenerist Retinol.,negative,"irritation,rash",2026-03-15,synthetic
+Paula Choice BHA Exfoliant,2,Gave me a rash! Had to stop using this Paula Choice BHA Exfoliant.,negative,"irritation,rash",2026-03-15,synthetic
+Neutrogena Hydro Boost,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,⭐⭐⭐⭐⭐ Best The Ordinary Niacinamide I've ever used.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,Love this La Roche-Posay Moisturizer! Works great.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,1,Made my skin so dry and flaky. Not good.,negative,dryness,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,Love this Olay Regenerist Retinol! Works great.,positive,,2026-03-15,synthetic
+Clinique Dramatically Different,2,Made my skin so dry and flaky. Not good.,negative,"dryness,sensitivity",2026-03-15,synthetic
+Paula Choice BHA Exfoliant,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,⭐⭐⭐⭐⭐ Best The Ordinary Niacinamide I've ever used.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,5,Love this CeraVe Hydrating Cleanser! Works great.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Love this Paula Choice BHA Exfoliant! Works great.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,Love this Cetaphil Gentle Cleanser! Works great.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+The Ordinary Niacinamide,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,⭐⭐⭐⭐⭐ Best The Ordinary Niacinamide I've ever used.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Clinique Dramatically Different,4,⭐⭐⭐⭐⭐ Best Clinique Dramatically Different I've ever used.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Paula Choice BHA Exfoliant,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+The Ordinary Niacinamide,5,Love this The Ordinary Niacinamide! Works great.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,⭐⭐⭐⭐⭐ Best La Roche-Posay Moisturizer I've ever used.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Olay Regenerist Retinol,2,Really disappointed. Caused irritation.,negative,sensitivity,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Clinique Dramatically Different,1,Gave me a rash! Had to stop using this Clinique Dramatically Different.,negative,"rash,dryness",2026-03-15,synthetic
+The Ordinary Niacinamide,3,"It's okay, nothing special.",neutral,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,5,Love this Aveeno Daily Moisturizer! Works great.,positive,,2026-03-15,synthetic
+CeraVe Hydrating Cleanser,2,Really disappointed. Caused irritation.,negative,sensitivity,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,Love this Neutrogena Hydro Boost! Works great.,positive,,2026-03-15,synthetic
+Neutrogena Hydro Boost,3,"Decent product, but I've used better.",neutral,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,5,"Amazing product, my skin is so much better.",positive,,2026-03-15,synthetic
+Clinique Dramatically Different,4,Really effective and gentle on my skin.,positive,,2026-03-15,synthetic
+Kiehl Ultra Facial Cream,2,Made my skin so dry and flaky. Not good.,negative,"dryness,sensitivity",2026-03-15,synthetic
+Neutrogena Hydro Boost,5,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic
+La Roche-Posay Moisturizer,2,Caused terrible breakouts. Avoid this La Roche-Posay Moisturizer.,negative,"irritation,acne",2026-03-15,synthetic
+La Roche-Posay Moisturizer,3,Works fine but a bit expensive.,neutral,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,4,⭐⭐⭐⭐⭐ Best Cetaphil Gentle Cleanser I've ever used.,positive,,2026-03-15,synthetic
+Cetaphil Gentle Cleanser,5,⭐⭐⭐⭐⭐ Best Cetaphil Gentle Cleanser I've ever used.,positive,,2026-03-15,synthetic
+Aveeno Daily Moisturizer,2,Really disappointed. Caused irritation.,negative,sensitivity,2026-03-15,synthetic
+Neutrogena Hydro Boost,5,⭐⭐⭐⭐⭐ Best Neutrogena Hydro Boost I've ever used.,positive,,2026-03-15,synthetic

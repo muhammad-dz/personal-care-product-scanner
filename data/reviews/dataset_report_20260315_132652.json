@@ -1,0 +1,12 @@
+{
+  "total_reviews": 1000,
+  "unique_products": 10,
+  "rating_distribution": {
+    "1": 44,
+    "2": 105,
+    "3": 160,
+    "4": 291,
+    "5": 400
+  },
+  "avg_rating": 3.9,
+  "reviews_with_issues": 
