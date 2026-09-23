@@ -1,4 +1,4 @@
-from fastapi import APIRouter, UploadFile, File, HTTPException
+from fastapi import APIRouter, Body, UploadFile, File, HTTPException
 from typing import List
 import os
 from datetime import datetime
@@ -187,7 +187,7 @@ async def extract_text_from_image(file: UploadFile = File(...)):
         raise HTTPException(status_code=500, detail=f"OCR processing failed: {str(e)}")
 
 @router.post("/batch-check")
-async def batch_check_ingredients(ingredients: List[str]):
+async def batch_check_ingredients(ingredients: List[str] = Body(..., embed=True)):
     """
     Check safety for multiple ingredients
     """
