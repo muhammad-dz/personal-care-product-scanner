@@ -1,82 +1,60 @@
-"""Unit tests for the Open Beauty Facts client.
-
-The real HTTP API is never called: httpx.AsyncClient is swapped for one that
-uses a MockTransport, so these tests are fast and deterministic.
-"""
 import asyncio
 
 import httpx
 import pytest
 
-from app.services import openbeautyfacts
-from app.services.openbeautyfacts import OpenBeautyFactsClient
+from app.services.openbeautyfacts import ProductLookupError, fetch_product
 
 
-def use_mock_api(monkeypatch, handler):
-    real_client = httpx.AsyncClient
-
-    def fake_client(*args, **kwargs):
-        return real_client(transport=httpx.MockTransport(handler))
-
-    monkeypatch.setattr(openbeautyfacts.httpx, "AsyncClient", fake_client)
+def run(handler, barcode="3600523614417"):
+    client = httpx.AsyncClient(transport=httpx.MockTransport(handler))
+    return asyncio.run(fetch_product(barcode, client=client))
 
 
-def lookup(barcode="3600523614417"):
-    return asyncio.run(OpenBeautyFactsClient().get_product_by_barcode(barcode))
+def found(product):
+    return httpx.Response(200, json={"status": 1, "product": product})
 
 
-def test_parses_structured_ingredient_list(monkeypatch):
+def test_uses_structured_ingredients():
+    product = run(lambda r: found({"product_name": "Cream", "brands": "Acme",
+                                   "ingredients": [{"text": "Aqua"}, {"id": "en:glycerin"}, {"text": ""}]}))
+    assert product["product_name"] == "Cream"
+    assert product["source"] == "Open Beauty Facts"
+    assert product["ingredients"] == ["Aqua", "en:glycerin"]
+
+
+def test_falls_back_to_ingredient_text():
+    product = run(lambda r: found({"ingredients_text": "Water, Glycerin , ,Niacinamide"}))
+    assert product["ingredients"] == ["Water", "Glycerin", "Niacinamide"]
+    assert product["product_name"] == "Unknown product"
+
+
+def test_tries_open_food_facts_when_beauty_has_nothing():
     def handler(request):
-        assert request.url.path.endswith("/product/3600523614417.json")
-        assert request.headers["User-Agent"].startswith("PersonalCareProductScanner")
-        return httpx.Response(200, json={
-            "status": 1,
-            "product": {
-                "code": "3600523614417",
-                "product_name": "Test Cream",
-                "brands": "TestBrand",
-                "ingredients": [{"text": "Aqua"}, {"id": "en:glycerin"}, {"text": ""}],
-            },
-        })
+        if "openbeautyfacts" in request.url.host:
+            return httpx.Response(200, json={"status": 0})
+        return found({"product_name": "Hand Soap"})
 
-    use_mock_api(monkeypatch, handler)
-    result = lookup()
-
-    assert result["success"] is True
-    assert result["product_name"] == "Test Cream"
-    assert result["ingredients_list"] == ["Aqua", "en:glycerin"]
+    product = run(handler)
+    assert product["source"] == "Open Food Facts"
 
 
-def test_falls_back_to_splitting_ingredients_text(monkeypatch):
+def test_not_found_anywhere():
+    assert run(lambda r: httpx.Response(404)) is None
+
+
+def test_one_source_down_is_not_fatal():
     def handler(request):
-        return httpx.Response(200, json={
-            "status": 1,
-            "product": {"product_name": "Plain", "ingredients_text": "Water, Glycerin , ,Niacinamide"},
-        })
+        if "openbeautyfacts" in request.url.host:
+            return httpx.Response(503)
+        return httpx.Response(200, json={"status": 0})
 
-    use_mock_api(monkeypatch, handler)
-    assert lookup()["ingredients_list"] == ["Water", "Glycerin", "Niacinamide"]
+    assert run(handler) is None
 
 
-def test_product_not_found(monkeypatch):
-    use_mock_api(monkeypatch, lambda request: httpx.Response(200, json={"status": 0}))
-    result = lookup("0000000000000")
-    assert result == {"success": False, "error": "Product not found", "barcode": "0000000000000"}
-
-
-@pytest.mark.parametrize("status", [404, 500, 503])
-def test_http_errors_are_reported_not_raised(monkeypatch, status):
-    use_mock_api(monkeypatch, lambda request: httpx.Response(status))
-    result = lookup()
-    assert result["success"] is False
-    assert result["error"] == f"HTTP {status}"
-
-
-def test_network_failure_is_reported_not_raised(monkeypatch):
+def test_all_sources_down_raises():
     def handler(request):
         raise httpx.ConnectError("offline", request=request)
 
-    use_mock_api(monkeypatch, handler)
-    result = lookup()
-    assert result["success"] is False
-    assert "offline" in result["error"]
+    with pytest.raises(ProductLookupError):
+        run(handler)
