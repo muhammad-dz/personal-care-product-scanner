@@ -185,9 +185,16 @@ class ProductRatingAlgorithm:
             ingredient_lower = ingredient.lower()
             normalized = self.normalize_ingredient_name(ingredient)
             
-            # Check direct matches
+            # Check direct matches. Several keys can match one ingredient as
+            # substrings (e.g. "methylparaben" also contains "ethylparaben"),
+            # so only count the most specific (longest) match, once.
+            matches = [
+                name for name in self.high_risk_ingredients
+                if name in ingredient_lower or name in normalized
+            ]
+            best_match = max(matches, key=len) if matches else None
             for risk_name, risk_info in self.high_risk_ingredients.items():
-                if risk_name in ingredient_lower or risk_name in normalized:
+                if risk_name == best_match:
                     # Calculate risk points based on severity
                     if risk_info['risk'] == 'high':
                         points = 10
