@@ -1,262 +1,127 @@
 import React, { useState } from 'react';
 import { useDropzone } from 'react-dropzone';
-import axios from 'axios';
 
-const ScannerPage = () => {
-  const [file, setFile] = useState(null);
-  const [preview, setPreview] = useState(null);
-  const [loading, setLoading] = useState(false);
-  const [result, setResult] = useState(null);
-  const [safetyData, setSafetyData] = useState(null);
+import { lookupBarcode, scanLabel } from '../api';
+import RatingCard from '../components/RatingCard';
+
+function BarcodeForm({ onResult, onError, busy, setBusy }) {
   const [barcode, setBarcode] = useState('');
-  const [searchMode, setSearchMode] = useState('image');
-  const [error, setError] = useState(null);
-  const [lookupSuccess, setLookupSuccess] = useState(false);
 
-  const { getRootProps, getInputProps } = useDropzone({
-    accept: { 'image/*': ['.png', '.jpg', '.jpeg'] },
-    maxFiles: 1,
-    onDrop: (acceptedFiles) => {
-      const file = acceptedFiles[0];
-      setFile(file);
-      setPreview(URL.createObjectURL(file));
-      setResult(null);
-      setSafetyData(null);
-      setError(null);
-      setLookupSuccess(false);
-    }
-  });
-
-  const handleImageScan = async () => {
-    if (!file) { alert('Select an image'); return; }
-    setLoading(true);
-    setError(null);
-    const formData = new FormData();
-    formData.append('file', file);
+  const submit = async (e) => {
+    e.preventDefault();
+    setBusy(true);
     try {
-      const ocrRes = await axios.post('http://localhost:8000/api/ocr/extract-text', formData);
-      setResult(ocrRes.data);
-      setLookupSuccess(true);
-      if (ocrRes.data.ingredients?.length) {
-        const safetyRes = await axios.post('http://localhost:8000/api/ocr/batch-check', {
-          ingredients: ocrRes.data.ingredients
-        });
-        setSafetyData(safetyRes.data);
-      }
-    } catch (error) {
-      setError('Scan failed');
-      setLookupSuccess(false);
+      onResult(await lookupBarcode(barcode.trim()));
+    } catch (err) {
+      onError(err.message);
     } finally {
-      setLoading(false);
+      setBusy(false);
     }
   };
 
-  const handleBarcodeLookup = async () => {
-    if (!barcode) { alert('Enter barcode'); return; }
-    setLoading(true);
-    setResult(null);
-    setSafetyData(null);
-    setError(null);
-    setLookupSuccess(false);
+  return (
+    <form className="row" onSubmit={submit}>
+      <input
+        inputMode="numeric"
+        placeholder="Barcode, e.g. 3600523614417"
+        value={barcode}
+        onChange={(e) => setBarcode(e.target.value)}
+      />
+      <button type="submit" disabled={busy || !/^\d{8,14}$/.test(barcode.trim())}>
+        {busy ? 'Looking up…' : 'Look up'}
+      </button>
+    </form>
+  );
+}
+
+function PhotoForm({ onResult, onError, busy, setBusy }) {
+  const [file, setFile] = useState(null);
+
+  const { getRootProps, getInputProps, isDragActive } = useDropzone({
+    accept: { 'image/*': ['.png', '.jpg', '.jpeg', '.webp'] },
+    maxFiles: 1,
+    onDrop: (files) => setFile(files[0] || null),
+  });
+
+  const submit = async () => {
+    setBusy(true);
     try {
-      const res = await axios.get(`http://localhost:8000/api/beauty/lookup/${barcode}`);
-      if (res.data.success) {
-        setLookupSuccess(true);
-        setResult(res.data);
-        if (res.data.ingredients_list?.length) {
-          const safetyRes = await axios.post('http://localhost:8000/api/ocr/batch-check', {
-            ingredients: res.data.ingredients_list
-          });
-          setSafetyData({
-            ...safetyRes.data,
-            product_info: {
-              name: res.data.product_name,
-              brands: res.data.brands,
-              source: res.data.source
-            }
-          });
-        } else {
-          setSafetyData({
-            product_info: {
-              name: res.data.product_name,
-              brands: res.data.brands,
-              source: res.data.source
-            }
-          });
-        }
-      } else {
-        setError('Product not found');
-      }
-    } catch (error) {
-      setError('Lookup failed');
+      onResult(await scanLabel(file));
+    } catch (err) {
+      onError(err.message);
     } finally {
-      setLoading(false);
+      setBusy(false);
     }
   };
 
   return (
     <div>
-      <h2>Product Scanner</h2>
-      
-      <div>
-        <button onClick={() => setSearchMode('image')}>
-          Scan Image
+      <div {...getRootProps({ className: `dropzone ${isDragActive ? 'active' : ''}` })}>
+        <input {...getInputProps()} />
+        {file ? <p>{file.name}</p> : <p>Drop a photo of the ingredient list here, or click to choose one</p>}
+      </div>
+      <button onClick={submit} disabled={busy || !file}>
+        {busy ? 'Reading label…' : 'Scan label'}
+      </button>
+    </div>
+  );
+}
+
+export default function ScannerPage() {
+  const [mode, setMode] = useState('barcode');
+  const [result, setResult] = useState(null);
+  const [error, setError] = useState('');
+  const [busy, setBusy] = useState(false);
+
+  const handlers = {
+    busy,
+    setBusy,
+    onResult: (data) => { setResult(data); setError(''); },
+    onError: (msg) => { setResult(null); setError(msg); },
+  };
+
+  const switchMode = (next) => {
+    setMode(next);
+    setResult(null);
+    setError('');
+  };
+
+  return (
+    <div>
+      <div className="tabs">
+        <button className={mode === 'barcode' ? 'tab active' : 'tab'} onClick={() => switchMode('barcode')}>
+          Barcode
         </button>
-        <button onClick={() => setSearchMode('barcode')}>
-          Lookup Barcode
+        <button className={mode === 'photo' ? 'tab active' : 'tab'} onClick={() => switchMode('photo')}>
+          Label photo
         </button>
       </div>
 
-      {error && <div><strong>{error}</strong></div>}
+      <section className="card">
+        {mode === 'barcode' ? <BarcodeForm {...handlers} /> : <PhotoForm {...handlers} />}
+        {mode === 'barcode' && <p className="muted small">Product data from Open Beauty Facts.</p>}
+      </section>
 
-      {searchMode === 'image' && (
-        <div>
-          <div {...getRootProps()}>
-            <input {...getInputProps()} />
-            <p>Drag and drop product label image here or click to browse</p>
-          </div>
+      {error && <p className="error">{error}</p>}
 
-          {preview && (
-            <div>
-              <h4>Preview:</h4>
-              <img src={preview} alt="Preview" style={{ maxWidth: '200px' }} />
-              <p>{file?.name}</p>
-            </div>
+      {result && (
+        <>
+          {result.product_name && (
+            <section className="card product">
+              {result.image_url && <img src={result.image_url} alt="" />}
+              <div>
+                <h2>{result.product_name}</h2>
+                {result.brands && <p className="muted">{result.brands}</p>}
+                <p className="muted small">Source: {result.source}</p>
+              </div>
+            </section>
           )}
 
-          <button onClick={handleImageScan} disabled={!file || loading}>
-            {loading ? 'Processing...' : 'Scan Product'}
-          </button>
-        </div>
-      )}
-
-      {searchMode === 'barcode' && (
-        <div>
-          <h3>Enter Barcode</h3>
-          <p>Look up product from Open Beauty Facts database</p>
-          
-          <div>
-            <input
-              type="text"
-              placeholder="e.g., 3560070791460"
-              value={barcode}
-              onChange={(e) => setBarcode(e.target.value)}
-              onKeyPress={(e) => { if (e.key === 'Enter') handleBarcodeLookup(); }}
-            />
-            <button onClick={handleBarcodeLookup} disabled={!barcode || loading}>
-              {loading ? 'Looking up...' : 'Lookup'}
-            </button>
-          </div>
-          
-          <p>Data provided by Open Beauty Facts</p>
-        </div>
-      )}
-
-      {lookupSuccess && result && (
-        <div>
-          <h3>Product Found</h3>
-          
-          {safetyData?.product_info && (
-            <div>
-              <h4>{safetyData.product_info.name}</h4>
-              <p><strong>Brand:</strong> {safetyData.product_info.brands || 'Unknown'}</p>
-              <p><strong>Source:</strong> {safetyData.product_info.source}</p>
-            </div>
-          )}
-          
-          {result.rating_data && (
-            <div>
-              <h4>AI Safety Rating</h4>
-              
-              <div>
-                <div>
-                  <span>{result.rating_data.final_score}</span>
-                  <span>/100</span>
-                </div>
-                
-                <div>
-                  <div>{result.rating_data.rating}</div>
-                  <div>{result.rating_data.recommendation}</div>
-                </div>
-              </div>
-              
-              <div>
-                <div><span>Risky ingredients:</span> {result.rating_data.risk_ingredients}</div>
-                <div><span>Beneficial ingredients:</span> {result.rating_data.beneficial_ingredients}</div>
-                <div><span>Total ingredients:</span> {result.rating_data.total_ingredients}</div>
-              </div>
-              
-              {result.rating_data.risk_details?.length > 0 && (
-                <div>
-                  <details>
-                    <summary>View risk details ({result.rating_data.risk_details.length})</summary>
-                    <div>
-                      {result.rating_data.risk_details.map((risk, idx) => (
-                        <div key={idx}>
-                          <strong>{risk.ingredient}</strong>: {risk.reason}
-                        </div>
-                      ))}
-                    </div>
-                  </details>
-                </div>
-              )}
-            </div>
-          )}
-          
-          <div>
-            <h4>Ingredients:</h4>
-            {result.ingredients_list?.length > 0 ? (
-              <div>
-                <p>{result.ingredients_list.join(', ')}</p>
-                <p>Total ingredients: {result.ingredients_list.length}</p>
-              </div>
-            ) : result.extracted_text ? (
-              <p>{result.extracted_text}</p>
-            ) : (
-              <p>No ingredients information available</p>
-            )}
-          </div>
-
-          {safetyData?.results && (
-            <>
-              <h4>Safety Analysis:</h4>
-              
-              <div>
-                <h5>Overall Safety Rating</h5>
-                <div>{safetyData.overall_rating || 'Unknown'}</div>
-                <div>Score: {safetyData.average_score || '?'}/10</div>
-              </div>
-
-              <div>
-                <h5>Ingredient Breakdown:</h5>
-                {safetyData.results.map((item, index) => (
-                  <div key={index}>
-                    <div>
-                      <strong>{item.ingredient}</strong>
-                      <div>
-                        <span>Score: {item.safety_score}/10</span>
-                        <span>{item.rating}</span>
-                      </div>
-                    </div>
-                    {item.hazards?.length > 0 && (
-                      <div>Hazards: {item.hazards.join(', ')}</div>
-                    )}
-                  </div>
-                ))}
-              </div>
-            </>
-          )}
-        </div>
-      )}
-
-      {!lookupSuccess && !loading && !error && searchMode === 'barcode' && (
-        <div>
-          <p>Enter a barcode above to look up a product</p>
-          <p>Try: 3560070791460</p>
-        </div>
+          {result.rating
+            ? <RatingCard rating={result.rating} />
+            : <p className="muted">This product has no ingredient list in the database yet.</p>}
+        </>
       )}
     </div>
   );
-};
-
-export default ScannerPage;
+}

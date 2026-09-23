@@ -1,31 +1,31 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
+
 import ScannerPage from './pages/ScannerPage';
 import SentimentDashboard from './pages/SentimentDashboard';
+import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <Router>
-      <div>
-        <div>
-          <div>
-            <h2>Personal Care Product Safety Scanner</h2>
-            <div>
-              <Link to="/">Scanner</Link>
-              <Link to="/sentiment">Sentiment</Link>
-            </div>
-          </div>
-        </div>
-        
-        <div>
-          <Routes>
-            <Route path="/" element={<ScannerPage />} />
-            <Route path="/sentiment" element={<SentimentDashboard />} />
-          </Routes>
-        </div>
-      </div>
-    </Router>
+    <BrowserRouter>
+      <header className="header">
+        <h1>Product Safety Scanner</h1>
+        <nav>
+          <NavLink to="/" end>Scanner</NavLink>
+          <NavLink to="/reviews">Reviews</NavLink>
+        </nav>
+      </header>
+
+      <main className="container">
+        <Routes>
+          <Route path="/" element={<ScannerPage />} />
+          <Route path="/reviews" element={<SentimentDashboard />} />
+        </Routes>
+      </main>
+
+      <footer className="container muted small">
+        Ratings are a simple rule-based guide, not medical advice.
+      </footer>
+    </BrowserRouter>
   );
 }
-
-export default App;

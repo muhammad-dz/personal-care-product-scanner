@@ -1,71 +1,68 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 
-const SentimentDashboard = () => {
-  const [loading, setLoading] = useState(true);
+import { getReviewSummary } from '../api';
+
+const LABELS = ['positive', 'neutral', 'negative'];
+
+export default function SentimentDashboard() {
   const [data, setData] = useState(null);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState('');
 
   useEffect(() => {
-    fetchData();
+    getReviewSummary().then(setData).catch((err) => setError(err.message));
   }, []);
 
-  const fetchData = async () => {
-    try {
-      const res = await axios.get('http://localhost:8000/api/sentiment/summary');
-      setData(res.data);
-    } catch (err) {
-      setError('Failed to load data');
-    } finally {
-      setLoading(false);
-    }
-  };
+  if (error) return <p className="error">{error}</p>;
+  if (!data) return <p className="muted">Loading…</p>;
 
-  if (loading) return <div>Loading...</div>;
-  if (error) return <div>{error}</div>;
-
-  // Shape returned by GET /api/sentiment/summary (backend/app/api/sentiment.py)
-  const d = data?.data;
-  if (!d) return <div>No sentiment data available</div>;
+  const maxIssue = Math.max(1, ...data.top_issues.map((i) => i.count));
 
   return (
     <div>
-      <h2>Sentiment Dashboard</h2>
-      
-      <div>
-        <div>
-          <h4>Total Reviews</h4>
-          <p>{d.total_reviews}</p>
-        </div>
-        <div>
-          <h4>Avg Rating</h4>
-          <p>{d.average_rating}/5</p>
-        </div>
-        <div>
-          <h4>Sentiment Score</h4>
-          <p>{d.average_sentiment_score}</p>
-        </div>
+      {data.data_source === 'synthetic' && (
+        <p className="notice">
+          This is generated sample data for demonstrating the pipeline, not real customer reviews.
+        </p>
+      )}
+
+      <div className="stats">
+        <div className="card stat"><span>{data.total_reviews}</span>reviews</div>
+        <div className="card stat"><span>{data.average_rating ?? '–'}</span>average rating</div>
+        <div className="card stat"><span>{data.average_score ?? '–'}</span>average sentiment</div>
       </div>
 
-      <div>
-        <h3>Sentiment Distribution</h3>
-        <div>
-          <div>Positive: {d.sentiment_distribution?.positive || 0} ({d.percentages?.positive || 0}%)</div>
-          <div>Neutral: {d.sentiment_distribution?.neutral || 0} ({d.percentages?.neutral || 0}%)</div>
-          <div>Negative: {d.sentiment_distribution?.negative || 0} ({d.percentages?.negative || 0}%)</div>
+      <section className="card">
+        <h3>Sentiment</h3>
+        <div className="split-bar">
+          {LABELS.map((label) => (
+            <div
+              key={label}
+              className={`split-${label}`}
+              style={{ width: `${data.sentiment[label].percent}%` }}
+              title={`${label}: ${data.sentiment[label].count}`}
+            />
+          ))}
         </div>
-      </div>
+        <ul className="legend">
+          {LABELS.map((label) => (
+            <li key={label}>
+              <span className={`dot split-${label}`} /> {label} {data.sentiment[label].percent}%
+            </li>
+          ))}
+        </ul>
+      </section>
 
-      <div>
-        <h3>Reported Issues</h3>
-        {(d.top_issues || []).map(({ issue, count }, i) => (
-          <div key={issue}>
-            {i + 1}. {issue} — {count} reports
+      <section className="card">
+        <h3>Problems mentioned in reviews</h3>
+        {data.top_issues.length === 0 && <p className="muted">None found.</p>}
+        {data.top_issues.map(({ issue, count }) => (
+          <div key={issue} className="bar-row">
+            <span className="bar-label">{issue}</span>
+            <div className="bar"><div style={{ width: `${(count / maxIssue) * 100}%` }} /></div>
+            <span className="bar-value">{count}</span>
           </div>
         ))}
-      </div>
+      </section>
     </div>
   );
-};
-
-export default SentimentDashboard;
+}
