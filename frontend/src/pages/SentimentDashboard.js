@@ -24,20 +24,9 @@ const SentimentDashboard = () => {
   if (loading) return <div>Loading...</div>;
   if (error) return <div>{error}</div>;
 
-  const d = data?.data || {
-    total_reviews: 1000,
-    sentiment_counts: { positive: 571, neutral: 166, negative: 263 },
-    sentiment_percentages: { positive: 57.1, neutral: 16.6, negative: 26.3 },
-    avg_sentiment_score: 0.164,
-    avg_rating: 3.9,
-    issue_frequency: {
-      'rash': 96,
-      'sensitivity': 75,
-      'acne': 57,
-      'dryness': 19,
-      'irritation': 15
-    }
-  };
+  // Shape returned by GET /api/sentiment/summary (backend/app/api/sentiment.py)
+  const d = data?.data;
+  if (!d) return <div>No sentiment data available</div>;
 
   return (
     <div>
@@ -50,30 +39,28 @@ const SentimentDashboard = () => {
         </div>
         <div>
           <h4>Avg Rating</h4>
-          <p>{d.avg_rating}/5</p>
+          <p>{d.average_rating}/5</p>
         </div>
         <div>
           <h4>Sentiment Score</h4>
-          <p>{d.avg_sentiment_score}</p>
+          <p>{d.average_sentiment_score}</p>
         </div>
       </div>
 
       <div>
         <h3>Sentiment Distribution</h3>
         <div>
-          <div>Positive: {d.sentiment_counts?.positive || 0} ({d.sentiment_percentages?.positive || 0}%)</div>
-          <div>Neutral: {d.sentiment_counts?.neutral || 0} ({d.sentiment_percentages?.neutral || 0}%)</div>
-          <div>Negative: {d.sentiment_counts?.negative || 0} ({d.sentiment_percentages?.negative || 0}%)</div>
+          <div>Positive: {d.sentiment_distribution?.positive || 0} ({d.percentages?.positive || 0}%)</div>
+          <div>Neutral: {d.sentiment_distribution?.neutral || 0} ({d.percentages?.neutral || 0}%)</div>
+          <div>Negative: {d.sentiment_distribution?.negative || 0} ({d.percentages?.negative || 0}%)</div>
         </div>
       </div>
 
       <div>
         <h3>Reported Issues</h3>
-        {Object.entries(d.issue_frequency || {}).map(([issue, count], i) => (
-          <div key={i}>
-            <span>{i+1}.</span>
-            <span>{issue}</span>
-            <span>{count} reports</span>
+        {(d.top_issues || []).map(({ issue, count }, i) => (
+          <div key={issue}>
+            {i + 1}. {issue} — {count} reports
           </div>
         ))}
       </div>
